@@ -1,1 +1,1 @@
-create function keepcoding.cleaninteger(x ANY TYPE) as (IFNULL(X,-999999));
+create function keepcoding.cleaninteger(input_value ANY TYPE) as (IFNULL(input_value,-999999));
